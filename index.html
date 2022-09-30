@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Learn-Siyuan-Widget</title>
+    <style type="text/css">
+        @import"./index.css";
+    </style>
+</head>
+
+<body>
+<!--下面是挂件html的主体(body), 我是注释-->
+<!--<br>是html的换行-->
+
+<!--导入jQuery脚本-->
+<script src="static/jquery.min.js"></script>
+
+
+<!--<h3>学习写思源挂件</h3>-->
+<p>这是一个学习写思源挂件的挂件😄下面是一些示例,点击各个按钮来查看效果</p>
+<b style="color:red">消息栏:</b><span id="message_span"></span><br>
+
+<!--输入框,placeholder无输入时的提示信息,value是输入的内容,size控制输入框的长度-->
+输入框1: <input type="text"  placeholder="输入框1的提示信息" id="input1"  size="70"><br>
+<button id="button1">点击我在消息栏显示当前时间</button><br>
+<button id="button2">点击我在输入框1里显示当前时间</button><br>
+<button id="button3">点击我粘贴剪贴板内容到输入框1里</button><span id="button3msg"></span><br>
+<button id="button4">点击我显示当前文档名(调用了API)</button><br>
+
+    <script src="script/main.js" type="module"></script>
+</body>
+
+</html>
